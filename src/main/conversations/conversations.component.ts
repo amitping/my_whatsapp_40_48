@@ -8,7 +8,7 @@ import { MsgWindowComponent } from './msg-window/msg-window.component';
   selector: 'app-conversations',
   templateUrl: './conversations.component.html',
   styleUrls: ['./conversations.component.css'],
-  imports[ConHeaderComponent,MsgWindowComponent,FooterComponent],
+  imports: [ConHeaderComponent, MsgWindowComponent, FooterComponent],
 })
 export class ConversationsComponent implements OnInit {
   constructor() {}
